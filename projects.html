@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Проекты Артёма Волкова" />
+    <title>Проекты — artem.dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-noise"></div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">&lt;/&gt;</span
+          ><span>artem<span class="accent">.dev</span></span></a
+        ><button
+          class="menu-toggle"
+          aria-label="Открыть меню"
+          aria-expanded="false"
+        >
+          <span></span><span></span>
+        </button>
+        <nav class="main-nav">
+          <a href="index.html">Главная</a
+          ><a class="active" href="projects.html">Проекты</a
+          ><a href="services.html">Услуги</a><a href="team.html">Команда</a
+          ><a href="blog.html">Блог</a
+          ><a class="nav-cta" href="contact.html"
+            >Обсудить проект <span>↗</span></a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero container">
+        <span class="section-kicker">03 / Избранные работы</span>
+        <h1>Проекты, которые<br /><em>говорят за меня.</em></h1>
+        <p>
+          Каждый проект — это новая задача, команда и возможность сделать что-то
+          лучше.
+        </p>
+      </section>
+      <section class="container portfolio-section">
+        <div class="filter-row">
+          <button class="filter active" data-filter="all">
+            Все работы <span>06</span></button
+          ><button class="filter" data-filter="web">Web <span>03</span></button
+          ><button class="filter" data-filter="mobile">
+            Mobile <span>02</span></button
+          ><button class="filter" data-filter="branding">
+            Branding <span>01</span>
+          </button>
+        </div>
+        <div class="portfolio-grid">
+          <a
+            class="project-card project-large portfolio-item"
+            data-category="web"
+            href="project-finova.html"
+            ><div class="project-image project-image-one">
+              <span class="project-tag">Web · SaaS</span>
+              <div class="mockup-dashboard">
+                <div class="mockup-top"></div>
+                <div class="mockup-chart"></div>
+                <div class="mockup-bars"><i></i><i></i><i></i><i></i></div>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Finova</h3>
+                <p>Финансовая платформа для бизнеса</p>
+              </div>
+              <span class="circle-arrow">↗</span>
+            </div></a
+          ><a
+            class="project-card portfolio-item"
+            data-category="branding"
+            href="project-detail.html?project=onda"
+            ><div class="project-image project-image-two">
+              <span class="project-tag">Branding · E-commerce</span>
+              <div class="shop-shape">
+                <span>Onda</span><small>Objects for slow living</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Onda Store</h3>
+                <p>Айдентика и интернет-магазин</p>
+              </div>
+              <span class="circle-arrow">↗</span>
+            </div></a
+          ><a
+            class="project-card portfolio-item"
+            data-category="mobile"
+            href="project-detail.html?project=pace"
+            ><div class="project-image project-image-three">
+              <span class="project-tag">Mobile · iOS</span>
+              <div class="phone-mock">
+                <div class="phone-notch"></div>
+                <b>Run<br />your<br />way.</b><span>→</span>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Pace</h3>
+                <p>Приложение для любителей бега</p>
+              </div>
+              <span class="circle-arrow">↗</span>
+            </div></a
+          ><a
+            class="project-card portfolio-item"
+            data-category="web"
+            href="project-detail.html?project=quanta"
+            ><div class="project-image project-image-four">
+              <span class="project-tag">Web · Fintech</span>
+              <div class="orb">Q</div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Quanta</h3>
+                <p>Платформа для инвестиций</p>
+              </div>
+              <span class="circle-arrow">↗</span>
+            </div></a
+          ><a
+            class="project-card portfolio-item"
+            data-category="mobile"
+            href="project-detail.html?project=moodly"
+            ><div class="project-image project-image-five">
+              <span class="project-tag">Mobile · Health</span>
+              <div class="health-card">
+                <span>mood</span><strong>Good<br />morning.</strong>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Moodly</h3>
+                <p>Трекер ментального здоровья</p>
+              </div>
+              <span class="circle-arrow">↗</span>
+            </div></a
+          ><a
+            class="project-card portfolio-item"
+            data-category="web"
+            href="project-detail.html?project=learnly"
+            ><div class="project-image project-image-six">
+              <span class="project-tag">Web · EdTech</span>
+              <div class="edu-card">
+                <b>learn<span>ly</span></b
+                ><small>Learn something new.</small>
+              </div>
+            </div>
+            <div class="project-info">
+              <div>
+                <h3>Learnly</h3>
+                <p>Платформа онлайн-обучения</p>
+              </div>
+              <span class="circle-arrow">↗</span>
+            </div></a
+          >
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <a class="brand" href="index.html"
+          ><span class="brand-mark">&lt;/&gt;</span
+          ><span>artem<span class="accent">.dev</span></span></a
+        ><span>© 2024 Артём Волков</span>
+        <div class="footer-links">
+          <a href="#">Telegram</a><a href="#">Dribbble</a><a href="#">GitHub</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
